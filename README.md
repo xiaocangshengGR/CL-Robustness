@@ -30,9 +30,6 @@ python run_extended_model_size.py
 python run_extended_order.py
 ```
 
-# License
-This code is released under the MIT License (refer to the LICENSE file for details).
-
 # Code Overview
 The file structure of directory is as follows:
 ```
