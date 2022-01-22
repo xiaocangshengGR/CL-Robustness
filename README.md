@@ -29,3 +29,38 @@ python run_extended_model_size.py
 #Task Order
 python run_extended_order.py
 ```
+
+# License
+This code is released under the MIT License (refer to the LICENSE file for details).
+
+# Code Overview
+The file structure of directory is as follows:
+```
+.
+├── CL-Robustness                         # The main code directory
+│   ├── src                
+│   │  ├── data                           # The directory contains the dataset.
+│   │  ├── framework                      # The directory contains the framework of continual learning.
+│   │  ├── methods                        # The directory contains the codes of finetune.
+│   │  ├── models                         # The directory contains the defined models.
+│   │  ├── results                        # The directory contains the results.
+│   │  ├── utilities                      # The directory contains some defined functions.
+│   │  ├── config.init                    # The configuration file.
+│   ├── main.py                           # The main code file.
+│   ├── README.md                         # The readme file
+│   ├── requirements.txt                  # The file specifies the required environments
+│   ├── run_2task.py                      # The file to conduct two-task learning.
+│   ├── run_extended_eps.py               # The file to conduct extended experiments with different epsilon.
+│   ├── run_extended_model_size.py        # The file to conduct extended experiments with different model size.
+│   ├── run_extended_order.py             # The file to conduct extended experiments with different order.
+│   ├── run_ls.py                         # The file to conduct long-sequence learning.
+
+```
+# Results
+The results can be found in the directory "**records**":
+```
+├── CL-Robustness                        
+│   ├── src             
+│   │  ├── results                       
+│   │  │  ├── records                        
+```
