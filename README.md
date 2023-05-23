@@ -1,5 +1,5 @@
 # CL-Robustness
-Code for ICML2022 paper, **Forgetting and Transfer of Adversarial Robustness in Continual Learning**.
+<!-- **Forgetting and Transfer of Adversarial Robustness in Continual Learning**. -->
 # Prerequisites
 Our experiments are conducted on a Ubuntu 64-Bit Linux workstation, having NVIDIA GeForce RTX 3090 GPUs with 24GB graphics memory. Conducting our experiments requires the following steps.
 ```
